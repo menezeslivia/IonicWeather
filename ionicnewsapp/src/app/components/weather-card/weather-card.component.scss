@@ -1,0 +1,37 @@
+.weather-card {
+  background: #f4f9fd;
+  margin-bottom: 1rem;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px #0001;
+  .weather-main {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    .temp {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+  .weather-info {
+    margin: .75rem 0 .5rem .5rem;
+  }
+}
+.weather-suggestion {
+  margin-top: .5rem;
+  color: #126e82;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.secondary-card {
+  background: #e9f6fb;
+  border: 1px dashed #51c4d3;
+  .weather-main .temp {
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+  .weather-info.small {
+    font-size: 0.95rem;
+  }
+}
