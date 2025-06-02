@@ -63,12 +63,12 @@ Este documento apresenta os principais casos de uso do aplicativo **IonicWeather
 
 ### 📑 Sumário
 
-- [UC001 - Realizar Login no Sistema](#uc001---realizar-login-no-sistema)
-- [UC002 - Realizar Cadastro de Usuário](#uc002---realizar-cadastro-de-usuário)
-- [UC003 - Buscar Cidade e Verificar Clima](#uc003---buscar-cidade-e-verificar-clima)
-- [UC004 - Adicionar Cidade aos Favoritos](#uc004---adicionar-cidade-aos-favoritos)
-- [UC005 - Consultar Clima da Localização Atual (GPS)](#uc005---consultar-clima-da-localização-atual-gps)
-- [UC006 - Receber Notificações Climáticas](#uc006---receber-notificações-climáticas)
+- [UC001 - Realizar Login no Sistema](#uc001--realizar-login-no-sistema)
+- [UC002 - Realizar Cadastro de Usuário](#uc002--realizar-cadastro-de-usuário)
+- [UC003 - Buscar Cidade e Verificar Clima](#uc003--buscar-cidade-e-verificar-clima)
+- [UC004 - Adicionar Cidade aos Favoritos](#uc004--adicionar-cidade-aos-favoritos)
+- [UC005 - Consultar Clima da Localização Atual (GPS)](#uc005--consultar-clima-da-localização-atual-gps)
+- [UC006 - Receber Notificações Climáticas](#uc006--receber-notificações-climáticas)
 
 ---
 
