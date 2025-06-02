@@ -1,7 +1,7 @@
 # 🌦️ Ionic Weather App
 
 Aplicativo de previsão do tempo desenvolvido com Ionic + Angular.
-
+Pode visualizar a apresentação do projeto no seguinte link https://www.canva.com/design/DAGpKZbgsV8/T6yJmzSFgXNekCSMAfxi4g/view?utm_content=DAGpKZbgsV8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5a7a5fcda0
 ## 📋 Descrição do Projeto
 
 Aplicativo móvel para monitoramento climático desenvolvido com Ionic, consumindo a API OpenWeatherMap.
