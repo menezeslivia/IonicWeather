@@ -14,8 +14,8 @@ Fornecer previsões meteorológicas em tempo real com interface responsiva e fun
 | Gerente Config       | Fernanda Gabrielli        | Repositório Git e padrões                 |
 | Documentador 1       | Clara Heloisa             | Casos de uso e protótipos                 |
 | Documentador 2       | Fernanda Buonafina        | Diagramas UML/ER                          |
-| Desenvolvedor 1      | Fernanda Buonafina        | Front-end e integração API                |
-| Desenvolvedor 2      | Livia Menezes             | Autenticação e banco de dados             |
+| Desenvolvedor 1      | Livia Menezes        | Front-end e integração API                |
+| Desenvolvedor 2      | Fernanda Buonafina           | Autenticação e banco de dados             |
 
 
 ## ✨ Funcionalidades
