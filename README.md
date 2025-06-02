@@ -1,6 +1,5 @@
 # 🌦️ Ionic Weather App
 Aplicativo de previsão do tempo desenvolvido com Ionic + Angular
-Você pode acessar nesse link: https://ionicw.vercel.app/
 
 ## 📋 Descrição do Projeto
 Aplicativo móvel para monitoramento climático desenvolvido com Ionic, consumindo a API OpenWeatherMap.
