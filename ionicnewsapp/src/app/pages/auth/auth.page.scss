@@ -1,3 +1,4 @@
+/* Estilos base (mobile first) */
 .top-wave {
   width: 100vw;
   height: 110px;
@@ -13,7 +14,7 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; /* Alterado para flex-start no mobile */
   padding-top: 0;
 }
 
@@ -28,9 +29,70 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  margin: 50px auto; /* Centralizado horizontalmente */
 }
 
+/* Estilos para telas médias (tablets) */
+@media (min-width: 768px) {
+  .content-bg {
+    align-items: center; /* Centraliza verticalmente em telas maiores */
+    padding-top: 0;
+  }
+
+  .auth-card {
+    margin: 0 auto; /* Remove a margem superior em telas maiores */
+    padding: 50px 40px 40px 40px;
+  }
+}
+
+/* Estilos para telas grandes (desktop) */
+/* Adicione isso aos seus media queries para telas grandes */
+@media (min-width: 1024px) {
+  .logo-area {
+    margin-bottom: 15px; /* Aumenta o espaçamento abaixo do logo */
+    
+    h1 {
+      margin-bottom: 10px; /* Espaço extra abaixo do título */
+      position: relative;
+      
+      /* Opcional: linha decorativa para melhor separação */
+      &::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 2px;
+        background: #51c4d3;
+        margin: 12px auto 0;
+        opacity: 0.5;
+      }
+    }
+    
+    ion-icon {
+      margin-bottom: 12px; /* Mais espaço abaixo do ícone */
+    }
+  }
+}
+
+/* Para telas extra grandes (opcional) */
+@media (min-width: 1440px) {
+  .logo-area {
+    margin-bottom: 20px;
+    
+    h1 {
+      margin-bottom: 15px;
+      
+      &::after {
+        margin-top: 15px;
+      }
+    }
+    
+    ion-icon {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+/* Mantendo os estilos existentes (sem alteração) */
 .logo-area {
   display: flex;
   flex-direction: column;
@@ -67,7 +129,6 @@ form {
   width: 100%;
 }
 
-/* Novo design padronizado para todos os campos */
 .input-container {
   width: 100%;
   margin-bottom: 18px;
@@ -108,7 +169,6 @@ form {
   box-shadow: 0 3px 10px 0 #51c4d344;
 }
 
-/* Checkbox estilizado */
 .show-password-checkbox {
   display: flex;
   align-items: center;
@@ -133,7 +193,6 @@ form {
   margin: 0;
 }
 
-/* Mensagens de erro */
 .error-note {
   color: #ff3f34;
   font-size: 0.97rem;
@@ -141,7 +200,6 @@ form {
   font-family: 'Montserrat', Arial, sans-serif;
 }
 
-/* Botão principal e alternância */
 .main-btn {
   background: linear-gradient(90deg, #51c4d3 0%, #126e82 100%);
   color: #fff;
