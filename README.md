@@ -82,7 +82,7 @@ Este documento apresenta os principais casos de uso do aplicativo **IonicWeather
 ##### 🔗 Fluxo Principal
 1. O usuário abre o app.
 2. Insere e-mail e senha na tela de login.
-3. O sistema valida as credenciais via Firebase ou JWT.
+3. O sistema valida as credenciais.
 4. Se válidas, o usuário é autenticado e acessa a tela inicial.
 
 ##### 🔀 Fluxo Alternativo
@@ -108,7 +108,7 @@ Este documento apresenta os principais casos de uso do aplicativo **IonicWeather
 1. O usuário seleciona “Criar Conta”.
 2. Preenche nome, e-mail e senha.
 3. O sistema valida os dados.
-4. Cria a conta no Firebase.
+4. Cria a conta.
 5. Usuário é redirecionado para a tela inicial.
 
 ##### ⚠️ Tratamento de Exceções
