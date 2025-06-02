@@ -55,7 +55,7 @@ ionic serve
 ionic capacitor add android
 ionic capacitor run android
 ```
-## 🌦️ IonicWeather — Documentação de Casos de Uso
+## 🌦️ Documentação de Casos de Uso
 
 Este documento apresenta os principais casos de uso do aplicativo **IonicWeather**, desenvolvido com Ionic + Angular. O app permite que usuários consultem informações climáticas em tempo real, salvem cidades favoritas e recebam alertas sobre mudanças climáticas.
 
